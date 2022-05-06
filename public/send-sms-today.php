@@ -4,7 +4,7 @@
   Kunna trigga SMS manuellt också med en knapp -->
 
 <?php
-require ('../config.php')
+require ('../config.php');
   #Öppnar och läser filen
   $handle = fopen("../newfile.txt", "r");
   if ($handle) {
