@@ -5,7 +5,7 @@
 
 <?php
   #Öppnar och läser filen
-  $handle = fopen("newfile.txt", "r");
+  $handle = fopen("../newfile.txt", "r");
   if ($handle) {
       while (($line = fgets($handle)) !== false) {
         $output = (explode(",",$line));

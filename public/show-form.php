@@ -42,7 +42,7 @@
 
 <?php 
 #Öppnar och skriver en ny rad i textfilen
-  $myfile = fopen("newfile.txt", "a") or die("Unable to open file!");
+  $myfile = fopen("../newfile.txt", "a") or die("Unable to open file!");
   $txt = $_POST["name"] . "," . $_POST["phonenumber"] . "\n";
   fwrite($myfile, $txt);
   fclose($myfile);
