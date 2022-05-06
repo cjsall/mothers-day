@@ -29,7 +29,7 @@
               <h3>Länge sedan mamma hörde från dig? <br>Skicka något redan idag! ⬇️</h3>
               <p>Om du vill skicka lite extra kärlek till mamma redan idag så kan du trycka på knappen nedan. Dagens meddelande är detta:<br></p>
               <span>"Tänkte på dig idag lilla mamma och ville<br> skicka lite kärlek! Kram <?php echo $_POST["name"];?>"</span>
-              <a href="/send-sms-today.php"><button>Skicka kärlek</button></a>
+              <a href="/send-sms-today"><button>Skicka kärlek</button></a>
           </div>
           </form>
         </div>
